@@ -12,8 +12,8 @@
   --darker-secondary: #832424;
 
   /* special uses */
-  --body: #333333;
-  --header-background: #f1f1f1;
+  --body: #4b4b4b;
+  --header-background: #d4d4d4;
 
   /* other colors */
   --color-1: #38023b;
@@ -26,5 +26,28 @@
   --color-8: #a9e4ef;
   --color-9: #f2d0a4;
   --color-10: #231651;
+}
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+
+/* COLORS & BACKGROUNDS
+----------------------------------------------------- */
+body {
+  color: var(--body);
+}
+
+a {
+  color: var(--main);
+}
+
+header {
+  background-color: var(--header-background);
+}
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+
+/* PSEUDO CLASSES
+----------------------------------------------------- */
+a:hover {
+  color: var(--darker-main);
+  border-bottom: 1px solid var(--darker-main);
 }
 /* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
