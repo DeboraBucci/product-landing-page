@@ -4,7 +4,7 @@
   /* main color */
   --main: #a38d65;
   --darker-main: #9e6b0d;
-  --lighter-main: #ddc598;
+  --lighter-main: #ccad74;
 
   /* secondary color */
   --secondary: #c23838;
@@ -49,5 +49,12 @@ header {
 a:hover {
   color: var(--darker-main);
   border-bottom: 1px solid var(--darker-main);
+}
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+
+/* BORDERS
+----------------------------------------------------- */
+.input-box {
+  border: 10px solid var(--lighter-main);
 }
 /* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
