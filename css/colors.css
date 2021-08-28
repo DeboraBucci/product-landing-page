@@ -1,0 +1,30 @@
+/* VARIABLES 
+----------------------------------------------------- */
+:root {
+  /* main color */
+  --main: #a38d65;
+  --darker-main: #9e6b0d;
+  --lighter-main: #ddc598;
+
+  /* secondary color */
+  --secondary: #c23838;
+  --lighter-secondary: #db4d4d;
+  --darker-secondary: #832424;
+
+  /* special uses */
+  --body: #333333;
+  --header-background: #f1f1f1;
+
+  /* other colors */
+  --color-1: #38023b;
+  --color-2: #a288e3;
+  --color-3: #ff6663;
+  --color-4: #52d1dc;
+  --color-5: #1da4b1;
+  --color-6: #f15025;
+  --color-7: #8e8dbe;
+  --color-8: #a9e4ef;
+  --color-9: #f2d0a4;
+  --color-10: #231651;
+}
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
