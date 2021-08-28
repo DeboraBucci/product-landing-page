@@ -6,3 +6,18 @@
   box-sizing: border-box;
 }
 /* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+
+/* HEADER
+----------------------------------------------------- */
+header {
+  margin: 30px;
+}
+
+nav {
+  padding: 20px 0;
+}
+
+nav a {
+  padding: 0 10px;
+}
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
