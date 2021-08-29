@@ -49,4 +49,10 @@ form input {
 input:focus {
   outline: none;
 }
+
+button {
+  padding: 10px 25px;
+  border: transparent;
+  border-radius: 4px;
+}
 /* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
