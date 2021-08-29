@@ -11,6 +11,8 @@
 ----------------------------------------------------- */
 header {
   padding: 30px 0 10px 0;
+  min-height: 180px;
+  height: 21vh;
 }
 
 nav {
@@ -25,8 +27,18 @@ nav a {
 
 /* FORM
 ----------------------------------------------------- */
+.form-container {
+  height: 39vh;
+  display: flex;
+  align-items: center;
+}
+
 form {
   margin: 30px auto;
+}
+
+h2 {
+  padding-bottom: 20px;
 }
 
 .input-box {
@@ -57,25 +69,47 @@ button {
 }
 /* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
 
-/* SECTION
+/* VIDEO
 ----------------------------------------------------- */
-.section-one {
-  padding: 10px 0;
-  margin-top: 100px;
+.video-container {
+  height: 40vh;
+  display: flex;
+  align-items: center;
+}
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+
+/* SECTION ONE
+----------------------------------------------------- */
+.section-one-container {
+  height: 100vh;
 }
 
 .feature-box {
   width: 90%;
+  padding-left: 10px;
   margin: 40px auto;
 }
 
 .feature-box * {
-  padding-bottom: 10px;
+  padding-bottom: 5px;
 }
 
-/* VIDEO
+/* SECTION TWO
 ----------------------------------------------------- */
-.video-container {
-  padding: 50px 0;
+.section-two-container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+.section-two {
+  padding: 50px 20px;
+}
+
+.section-two ul {
+  padding: 20px 20px 0 20px;
+}
+
+h4 {
+  padding-bottom: 20px;
 }
 /* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
