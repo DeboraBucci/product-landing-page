@@ -24,7 +24,16 @@ h3 {
   font-family: "Quicksand", sans-serif;
 }
 
-/* TEXT FEATURES : */
+/* FONT SIZES : */
+h2 {
+  font-size: 2rem;
+}
+
+.section-one i {
+  font-size: 3rem;
+}
+
+/* OTHER TEXT FEATURES : */
 a {
   text-decoration: none;
 }
@@ -36,8 +45,4 @@ header {
 
 form {
   text-align: center;
-}
-
-h2 {
-  font-size: 2rem;
 }
