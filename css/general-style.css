@@ -56,3 +56,19 @@ button {
   border-radius: 4px;
 }
 /* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+
+/* SECTION
+----------------------------------------------------- */
+.section-one {
+  padding: 10px 0;
+  margin-top: 100px;
+}
+
+.feature-box {
+  width: 90%;
+  margin: 40px auto;
+}
+
+.feature-box * {
+  padding-bottom: 10px;
+}
