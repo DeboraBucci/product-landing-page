@@ -36,7 +36,7 @@ video {
 /* FORM
 ----------------------------------------------------- */
 .form-container {
-  height: 40vh;
+  min-height: 40vh;
   display: flex;
   align-items: center;
 }
@@ -80,7 +80,7 @@ button {
 /* VIDEO
 ----------------------------------------------------- */
 .video-container {
-  height: 35vh;
+  min-height: 35vh;
   display: flex;
   align-items: center;
 }
@@ -89,13 +89,13 @@ button {
 /* SECTION ONE
 ----------------------------------------------------- */
 .section-one-container {
-  height: 100vh;
+  min-height: 100vh;
 }
 
 .feature-box {
-  width: 90%;
+  width: 95%;
   padding-left: 10px;
-  margin: 40px auto;
+  margin-top: 40px;
 }
 
 .feature-box * {
@@ -105,7 +105,7 @@ button {
 /* SECTION TWO
 ----------------------------------------------------- */
 .section-two-container {
-  height: 100vh;
+  min-height: 100vh;
   display: flex;
   align-items: center;
 }
