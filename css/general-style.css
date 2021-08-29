@@ -72,3 +72,10 @@ button {
 .feature-box * {
   padding-bottom: 10px;
 }
+
+/* VIDEO
+----------------------------------------------------- */
+.video-container {
+  padding: 50px 0;
+}
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
