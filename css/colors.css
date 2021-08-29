@@ -4,16 +4,16 @@
   /* main color */
   --main: #a38d65;
   --darker-main: #9e6b0d;
-  --lighter-main: #ccad74;
+  --lighter-main: #c7b28a;
 
   /* secondary color */
-  --secondary: #c23838;
+  --secondary: #ad2e2e;
   --lighter-secondary: #db4d4d;
   --darker-secondary: #832424;
 
   /* special uses */
   --body: #4b4b4b;
-  --header-background: #d4d4d4;
+  --header-background: #dadada;
 
   /* other colors */
   --color-1: #38023b;
@@ -23,9 +23,9 @@
   --color-5: #1da4b1;
   --color-6: #f15025;
   --color-7: #8e8dbe;
-  --color-8: #a9e4ef;
+  --color-8: #cccccc;
   --color-9: #f2d0a4;
-  --color-10: #231651;
+  --color-10: #e7e7e7;
 }
 /* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
 
@@ -42,6 +42,11 @@ a {
 header {
   background-color: var(--header-background);
 }
+
+button {
+  background: var(--secondary);
+  color: var(--color-10);
+}
 /* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
 
 /* PSEUDO CLASSES
@@ -56,5 +61,9 @@ a:hover {
 ----------------------------------------------------- */
 .input-box {
   border: 10px solid var(--lighter-main);
+}
+
+input {
+  border: 1px solid var(--color-8);
 }
 /* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
