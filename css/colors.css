@@ -26,6 +26,7 @@
   --color-8: #cccccc;
   --color-9: #f2d0a4;
   --color-10: #e7e7e7;
+  --color-11: #202020;
 }
 /* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
 
@@ -54,6 +55,10 @@ button {
 
 .section-one i {
   color: var(--color-2);
+}
+
+.video-container {
+  background-color: var(--color-11);
 }
 /* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
 
