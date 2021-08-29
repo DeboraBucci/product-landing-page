@@ -13,7 +13,7 @@
 
   /* special uses */
   --body: #4b4b4b;
-  --header-background: #dadada;
+  --background: #dadada;
 
   /* other colors */
   --color-1: #38023b;
@@ -40,12 +40,20 @@ a {
 }
 
 header {
-  background-color: var(--header-background);
+  background-color: var(--background);
 }
 
 button {
   background: var(--secondary);
   color: var(--color-10);
+}
+
+.section-one {
+  background: var(--background);
+}
+
+.section-one i {
+  color: var(--color-2);
 }
 /* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
 
