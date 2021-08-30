@@ -109,7 +109,8 @@ a {
   color: var(--main);
 }
 
-header {
+header,
+footer {
   background-color: var(--background);
 }
 
