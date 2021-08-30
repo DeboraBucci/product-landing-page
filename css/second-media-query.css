@@ -1,0 +1,16 @@
+@media (min-width: 1200px) {
+  .section-three {
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 99vw;
+    min-height: 100vh;
+  }
+
+  .pricing-box {
+    width: 340px;
+    max-height: 500px;
+  }
+}
