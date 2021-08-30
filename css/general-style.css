@@ -79,6 +79,7 @@ button {
   min-height: 35vh;
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 video {
@@ -136,6 +137,7 @@ h4 {
   padding: 20px;
   transition: 0.5s;
   min-height: 500px;
+  max-width: 350px;
 }
 
 .pricing-box-title {
