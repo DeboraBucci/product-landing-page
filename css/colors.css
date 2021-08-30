@@ -28,6 +28,74 @@
   --color-10: #e7e7e7;
   --color-11: #202020;
   --color-12: #3f3f3f;
+
+  /* PRICING */
+
+  /* villager -------------- */
+  --villager: linear-gradient(
+    120deg,
+    #103610,
+    #1a661a,
+    #49a349,
+    #a9e0a9,
+    #103610
+  );
+  --villager-color: #73ff85;
+  /* ----------------------- */
+
+  /* knight ---------------- */
+  --knight: linear-gradient(
+    120deg,
+    #1d1d1d,
+    #474747,
+    #9c9b9b,
+    #dadada,
+    #292929,
+    #292929,
+    #292929
+  );
+  /* ----------------------- */
+
+  /* paladin --------------- */
+  --paladin: linear-gradient(
+    120deg,
+    #0a1363,
+    #1d1b8b,
+    #3c50c4,
+    #b7d0e7,
+    #0d155f,
+    #0d123d
+  );
+  --paladin-color: #d6af00;
+  /* ----------------------- */
+
+  /* wizard ---------------- */
+  --wizard: linear-gradient(
+    120deg,
+    #3f0a63,
+    #621b8b,
+    #993cc4,
+    #dcb7e7,
+    #4c0d5f,
+    #260d3d
+  );
+  --wizard-color: #ff8fb4;
+  /* ----------------------- */
+
+  /* king-queen ------------ */
+  --king-queen: linear-gradient(
+    120deg,
+    #8f6303,
+    #ffd900,
+    #af7800,
+    #ffd900,
+    #ffae00,
+    #f7edc4,
+    #f11ff8,
+    #38003a
+  );
+  --king-queen-color: #5e034a;
+  /* ----------------------- */
 }
 /* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
 
@@ -80,5 +148,54 @@ a:hover {
 
 input {
   border: 1px solid var(--color-8);
+}
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+
+/* PRICING SPECIAL 
+----------------------------------------------------- */
+.subscription-info {
+  background: #ffffffa6;
+}
+
+/* villager */
+.villager {
+  background: var(--villager);
+}
+
+.villager-title {
+  color: var(--villager-color);
+}
+
+/* knight */
+.knight {
+  background: var(--knight);
+}
+
+.paladin {
+  background: var(--paladin);
+}
+
+.paladin-title {
+  color: var(--paladin-color);
+}
+
+.wizard {
+  background: var(--wizard);
+}
+
+.wizard-title {
+  color: var(--wizard-color);
+}
+
+.king-queen {
+  background: var(--king-queen);
+}
+
+.king-queen-title {
+  color: var(--king-queen-color);
+}
+
+.prices {
+  border-bottom: 1px solid var(--color-12);
 }
 /* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
