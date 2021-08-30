@@ -24,6 +24,15 @@ h3 {
   font-family: "Quicksand", sans-serif;
 }
 
+.pricing {
+  font-family: "Montserrat", sans-serif;
+}
+
+.benefits-title,
+.pricing-box-title {
+  font-family: "Crimson Text", serif;
+}
+
 /* FONT SIZES : */
 h2 {
   font-size: 1.7rem;
@@ -35,6 +44,14 @@ h4 {
 
 .section-one i {
   font-size: 3rem;
+}
+
+.pricing-box-title {
+  font-size: 1.7rem;
+}
+
+.benefits-title {
+  font-size: 1.5rem;
 }
 
 /* OTHER TEXT FEATURES : */
@@ -53,4 +70,16 @@ form {
 
 body {
   line-height: 1.5rem;
+}
+
+.pricing-box {
+  text-align: center;
+}
+
+.benefits-title {
+  font-weight: 900;
+}
+
+.line-through {
+  text-decoration: line-through;
 }
