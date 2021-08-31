@@ -110,11 +110,13 @@ a {
 }
 
 header,
+nav,
 footer {
   background-color: var(--background);
 }
 
-button {
+button,
+.form-btn {
   background: var(--secondary);
   color: var(--color-10);
 }
