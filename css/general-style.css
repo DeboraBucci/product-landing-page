@@ -66,10 +66,15 @@ input:focus {
   outline: none;
 }
 
-button {
+button,
+.form-btn {
   padding: 10px 25px;
   border: transparent;
   border-radius: 4px;
+}
+
+.form-btn:hover {
+  opacity: 0.8;
 }
 /* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
 
@@ -221,5 +226,15 @@ footer {
 .credits-container {
   display: flex;
   flex-wrap: wrap;
+}
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+
+/* STICKY
+----------------------------------------------------- */
+.sticky {
+  position: fixed;
+  width: 100vw;
+  top: 0;
+  opacity: 0.9;
 }
 /* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
