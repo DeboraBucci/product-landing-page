@@ -86,11 +86,6 @@ button,
   align-items: center;
   justify-content: center;
 }
-
-video {
-  height: 100%;
-  max-width: 100%;
-}
 /* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
 
 /* SECTION ONE
@@ -102,7 +97,7 @@ video {
 .feature-box {
   width: 95%;
   padding-left: 10px;
-  margin-top: 9vh;
+  padding-top: 9vh;
 }
 
 .feature-box * {
@@ -229,12 +224,16 @@ footer {
 }
 /* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
 
-/* STICKY
+/* SPECIAL CLASSES
 ----------------------------------------------------- */
 .sticky {
   position: fixed;
   width: 100vw;
   top: 0;
   opacity: 0.9;
+}
+
+.hidden {
+  display: none;
 }
 /* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
