@@ -18,4 +18,12 @@
     flex-direction: column;
     align-items: center;
   }
+
+  .pricing-box:hover {
+    transform: scale(1.1);
+  }
+
+  .hidden {
+    display: block;
+  }
 }
