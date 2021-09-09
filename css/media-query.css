@@ -26,4 +26,25 @@
   .hidden {
     display: block;
   }
+
+  header {
+    padding: 5px 20px 0 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100vw;
+    z-index: 999;
+    height: 70px;
+    opacity: 0.9;
+  }
+
+  nav {
+    width: 60%;
+  }
+
+  header img {
+    width: 120px;
+    padding-top: 10px;
+  }
 }
