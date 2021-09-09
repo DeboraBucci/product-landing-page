@@ -13,4 +13,8 @@
     width: 340px;
     max-height: 500px;
   }
+
+  header {
+    padding: 5px 0 0 30px;
+  }
 }
