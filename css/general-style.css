@@ -85,6 +85,10 @@ button,
   align-items: center;
   justify-content: center;
 }
+
+video {
+  max-width: 100%;
+}
 /* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
 
 /* SECTION ONE
